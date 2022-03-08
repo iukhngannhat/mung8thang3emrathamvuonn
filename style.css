@@ -22,7 +22,13 @@ main {
 	position: relative;
 	overflow: hidden;
 }
-
+ audio {
+    
+    position: absolute;
+    top: 105%;
+    right: 44%;
+    animation: fadein ease 5s;
+  }
 body {
 	margin: 0;
 	--color-text: #f5d6d6;
